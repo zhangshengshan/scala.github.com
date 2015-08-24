@@ -9,7 +9,7 @@ num: 13
 language: es
 ---
 
-En scala es posible anidar definiciones de funciones. El siguiente objeto provee una función `filter` para extraer valores de una lista de enteros que están por debajo de un valor determinado:
+En scala es posible anidar definiciones de funciones. El siguiente objeto provee una función `filter` para extraer valores de una lista de enteros que están por debajo de un determinado valor:
 
     object FilterTest extends App {
       def filter(xs: List[Int], threshold: Int) = {
